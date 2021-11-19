@@ -1,0 +1,34 @@
+$background-color-01: #c0eea9;
+$background-color-02: #97d279;
+$background-color-03: #000;
+$background-color-04: rgb(230, 233, 94);
+$background-color-05: rgba(255, 166, 0, 0.719);
+$color-01: blue;
+$color-02: red;
+$color-03: rgba(0, 0, 0, 0.75);
+$color-04: rgb(77, 29, 29);
+$standardpadding: padding 20px;
+
+@mixin h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: $color-02;
+}
+
+@mixin h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  color: $color-03;
+}
+
+@mixin h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: $color-01;
+}
+
+@mixin p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  color: $color-04;
+}
